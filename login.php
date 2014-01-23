@@ -3,7 +3,7 @@ require 'app/base/init.php';
 $core->load_module(array('base'=>array('user','dept')));
 $act=trim($act);
 
-switch ($act){ 
+switch ($act){
 	case 'logindddd':
 		$username = trim($usr);
 		$password = trim($pwd);
